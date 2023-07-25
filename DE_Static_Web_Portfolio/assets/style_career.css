@@ -1,0 +1,83 @@
+@media only screen and (min-width: 769px) {
+    .mobile-version {
+        display: none; 
+    }
+}
+
+@media only screen and (max-width: 768.98px) {
+    .desktop-version {
+        display: none;    
+    }
+}
+
+@font-face {
+    font-family: 'lg_smart_regular'; 
+    font-style: normal;
+    font-weight: normal; 
+    src: url(lg_smart_regular.woff) format('woff');  
+}
+
+body {
+    font-family: 'lg_smart_regular'; 
+    line-height: 1.2;
+}
+
+section {
+    padding: 20px;
+}
+
+table {
+    margin: 0px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+h6 {
+    margin-top: 8px;
+}
+
+button {
+    border: 1px solid #dddddd;
+}
+
+.accordion {
+    background-color: #eee;
+    cursor: pointer;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+.accordion td, th {
+    border-bottom: 0px;
+}
+
+.activ, .accordion:hover {
+    border: 1px solid #a50034;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    margin: 10px auto;
+}
+
+.activ:after {
+    content: "\2212";
+}
+
+.panel {
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.btn {
+    background-color: #dddddd;
+}
