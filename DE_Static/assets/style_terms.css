@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'lg_smart_regular'; 
+    font-style: normal;
+    font-weight: normal; 
+    src: url(lg_smart_regular.woff) format('woff');  
+}
+
+body {
+    font-family: 'lg_smart_regular'; 
+    line-height: 1.2;
+}
+
+.terms-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+.number1 {
+    display: inline-block;
+    width: 30px;
+    margin-left: -35px;
+}
+
+.number2 {
+    display: inline-block;
+    width: 50px;
+    margin-left: -55px;
+}
+
+.table1 {
+    width: 80%;
+    margin-left: 40px;
+}
+
+.indented-list {
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+}
